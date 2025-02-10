@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-content version="12.8">
+    <module id="a752cd7b-88ee-4ab5-a1fb-fb43d3adb9f2" name="PAS128PRO">
+        <resource path="AppServer" publish="true"/>
+    </module>
+</module-content>
