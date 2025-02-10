@@ -1,11 +1,11 @@
  
  /*------------------------------------------------------------------------
-    File        : asd
+    File        : PAS128INTHandler
     Purpose     : 
     Syntax      : 
     Description : 
     Author(s)   : User
-    Created     : Mon Feb 10 11:22:38 ICT 2025
+    Created     : Mon Feb 10 13:16:59 ICT 2025
     Notes       : 
   ----------------------------------------------------------------------*/
 
@@ -16,9 +16,9 @@ USING OpenEdge.Web.WebHandler.
 
 BLOCK-LEVEL ON ERROR UNDO, THROW.
 
-CLASS asd INHERITS WebHandler: 
+CLASS PAS128INTHandler INHERITS WebHandler: 
 
-	asdasd
+	
 		
 	/*------------------------------------------------------------------------------
             Purpose: Handler for unsupported methods. The request being serviced and
@@ -80,7 +80,7 @@ CLASS asd INHERITS WebHandler:
             oBody = NEW OpenEdge.Core.String(
                              'Hello User'
                            + '~r~n':u   /*CRLF */
-                           + 'This message was returned by HandleGet in asd.'
+                           + 'This message was returned by HandleGet in PAS128INTHandler.'
                            ).
         
         ASSIGN 
